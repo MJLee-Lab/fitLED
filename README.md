@@ -41,12 +41,19 @@ y_norm – calculated LF that correspond to time points in ‘time’ in a colum
 •	The output of fitLED will include:
 
 scatter_LF – contains the original data sent to fitLED (time,LF)
+
 plot_LED – model predictions from LED fitting.  First column is time and second column is predicted LF values
+
 y0 – baseline value (model parameter)
+
 D0 – onset time  (model parameter)
+
 Dr – maximal rate of death (model parameter)
+
 Plateau – Maximal LF value (model parameter)
+
 AUC – Area under the LF curve
+
 Fit-type – model descriptor (LED or flat)
 
 
